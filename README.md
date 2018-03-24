@@ -17,6 +17,6 @@ and IntelliJ IDE in your machines.
 * The java files in `/src/algorithms` are the implements of algorithms. _ComputeDom.java_,
 _DynamicProg.java_, _BlueToRed.java_, _RedToBlue.java_ are the implements for the algorithm 
 **ComputeDom**, **DP**, **D1ToD2**, **D2ToD1** respectively. You can choose one or more more algorithms to run in a single 
-running by modifying the file `/src/AlgorithmController,java`.
+running by modifying the file `/src/AlgorithmController.java`.
 
 * Part of datasets used in our experiments are given in `/dataset`
