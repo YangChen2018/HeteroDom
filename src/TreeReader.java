@@ -1,20 +1,16 @@
-import java.io.*;
-import java.util.Scanner;
-import java.util.Random;
-import java.util.Set;
-
 import algorithms.SpanningTree;
-import org.graphstream.graph.Edge;
-import org.graphstream.graph.Node;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.SingleGraph;
+
+import java.util.Random;
+import java.util.Scanner;
 
 public class TreeReader {
 
     public static void main(String[] args) throws IOException {
-        int d = 10;  // how many nodes in Dm
+        int d = 10;  // how many nodes in D2
 
-        String dataFileName = "dataset/randomNetworks/BA1000m=2.txt";
+        String dataFileName = "dataset/randomNetworks/BA1000m=2.txt"; // data size path
 
         String outPutFilePath = "/Users/chenyang/Desktop/";
         File resultPath = new File(outPutFilePath);
